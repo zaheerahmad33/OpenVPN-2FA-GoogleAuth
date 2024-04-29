@@ -10,7 +10,7 @@ This repository contains scripts and a template file to set up and manage **Open
   - [create-zip.sh](#create-zipsh)
 - [Template File](#template-file)
 - [Usage](#usage)
-- [License](#license)
+- [Connecting with OpenVPN Client](#connecting-with-openvpn-client)
 
 ## Scripts
 
