@@ -1,0 +1,17 @@
+# Authentication phase
+auth required /usr/lib/x86_64-linux-gnu/security/pam_google_authenticator.so \
+    secret=/opt/openvpn/google-auth/${USER} \
+    user=root \
+    authtok_prompt=pin
+
+auth required pam_unix.so
+
+# Account phase
+account required pam_unix.so
+
+# Password phase
+password required pam_unix.so
+
+# Session phase
+session required pam_unix.so
+
